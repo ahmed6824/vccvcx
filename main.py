@@ -10,7 +10,7 @@ API_KEY = os.environ['BINANCE_API_KEY']
 API_SECRET = os.environ['BINANCE_API_SECRET']
 
 client = Client(API_KEY, API_SECRET)
-client.FUTURES_URL = 'https://fapi.binance.com'
+client.FUTURES_URL = 'https://binance-docs.github.io/apidocs/futures/en/'
 
 symbol = "SOLUSDT"
 leverage = 10
